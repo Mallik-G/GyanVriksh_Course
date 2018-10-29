@@ -1,0 +1,15 @@
+01.Introductions and Installation of Anaconda
+02.Expressions
+03.Conditionals
+04Functions
+05.Iteration
+06.Strings
+07.Files
+08.Lists
+09.Dictionaries
+10.Tuples
+11.Regex
+12.WebServices
+13.Objects
+14.Interaction with Databases
+15.Data Visualisations
