@@ -1,10 +1,10 @@
 #!/usr/bin/python
 
-fname = raw_input('Enter the file name: ')
+fname = input('Enter the file name: ')
 try:
     fhand = open(fname)
 except:
-    print 'File cannot be opened:', fname
+    print ('File cannot be opened:', fname)
     exit()
 c = 0
 t = 0 
@@ -16,10 +16,10 @@ for line in fhand:
         num = float(line[start:].lstrip())
         t = num + t
 
-print 'Count:', c
-print 'Total:', t
+print ('Count:', c)
+print ('Total:', t)
 avg = t/c
-print 'Average spam confidence:', avg
+print ('Average spam confidence:', avg)
 
 
 
